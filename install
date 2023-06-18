@@ -2,8 +2,8 @@
 
 clear
 cd /root
-mv led-b680/bled /usr/bin/
-mv led-b680/bledon /usr/bin/
+cp led-b680/bled /usr/bin/
+cp led-b680/bledon /usr/bin/
 chmod +x /usr/bin/bled
 chmod +x /usr/bin/bledon
 
