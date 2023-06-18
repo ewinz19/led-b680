@@ -2,16 +2,16 @@
 
 clear
 cd /root
-mv led-hg/inet-hg680p.sh /usr/bin/
-mv led-hg/hg680p.sh /usr/bin/
-chmod +x /usr/bin/inet-hg680p.sh
-chmod +x /usr/bin/hg680p.sh
+mv led-b860/bled /usr/bin/
+mv led-b860/bledon /usr/bin/
+chmod +x /usr/bin/bled
+chmod +x /usr/bin/bledon
 
 cd /root
 touch /root/led
 echo ok > /root/led
 echo " Install selesai"
-echo " ketik perintah : inet-hg680p.sh -s"
+echo " ketik perintah : bled -s"
 echo " Untuk stop LED Indicator"
 sleep 2
-bash inet-hg680p.sh -r
+bash bled -r
